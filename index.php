@@ -4,7 +4,7 @@
  */
 
 require_once 'lib/MikroTikAPI_SMS_send.php';
-require_once 'lib/RouterosAPI.class.php'
+require_once 'lib/RouterosAPI.class.php';
 
 $param = [
     'MT_ip' => 'x.x.x.x',
