@@ -20,4 +20,4 @@ $phone = '79001230000';
 $message = 'Hello world!';
 
 $result = $SMS->send($phone, $message);
-if (!$result) print_r($result);
+if ($result !== true) print_r($result);
